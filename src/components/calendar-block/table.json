@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_calendar_block_tables",
+  "info": {
+    "displayName": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columnOneName": {
+      "type": "string"
+    },
+    "columnTwoName": {
+      "type": "string"
+    },
+    "columnThreeName": {
+      "type": "string"
+    },
+    "row": {
+      "displayName": "tableColumn",
+      "type": "component",
+      "repeatable": true,
+      "component": "calendar-block.table-column"
+    }
+  }
+}

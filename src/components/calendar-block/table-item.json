@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_calendar_block_table_items",
+  "info": {
+    "displayName": "tableItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "call-to-action.link"
+    }
+  }
+}

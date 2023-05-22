@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_event_events",
+  "info": {
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "times": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "trackLead": {
+      "type": "string"
+    },
+    "attendees": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "schedule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calendar-block.table"
+    }
+  }
+}

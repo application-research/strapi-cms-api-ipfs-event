@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_schedules",
+  "info": {
+    "singularName": "event-schedule",
+    "pluralName": "event-schedules",
+    "displayName": "Event Schedule",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dayOfTheWeek": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "dynamiczone",
+      "components": [
+        "event.event"
+      ]
+    },
+    "eventTitle": {
+      "type": "string"
+    }
+  }
+}

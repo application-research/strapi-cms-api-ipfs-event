@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_calendar_block_table_columns",
+  "info": {
+    "displayName": "tableColumns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columnOne": {
+      "type": "string"
+    },
+    "columnTwo": {
+      "type": "string"
+    },
+    "columnThree": {
+      "type": "richtext"
+    }
+  }
+}
